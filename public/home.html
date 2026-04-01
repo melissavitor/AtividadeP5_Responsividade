@@ -3,31 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meltify</title>
+    <title>Meltify - Descubra os melhores artistas</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Cabeçalho com logo -->
     <header class="cabecalho">
-        <h1>Meltify</h1>
-        <p>Descubra os melhores artistas e álbuns</p>
+        <div class="logo">
+            <h1>Meltify</h1>
+            <p>Sua plataforma musical</p>
+        </div>
+        <!-- Barra de navegação com 4 links -->
+        <nav class="menu-navegacao">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Artistas</a></li>
+                <li><a href="#">Álbuns</a></li>
+                <li><a href="#">Playlists</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav class="menu-navegacao">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Artistas</a></li>
-            <li><a href="#">Álbuns</a></li>
-            <li><a href="#">Playlists</a></li>
-        </ul>
-    </nav>
-
     <main class="conteudo-principal">
+        <!-- SEÇÃO PRINCIPAL: Banner e texto introdutório -->
+        <section class="banner-principal">
+            <div class="banner-imagem">
+                <img src="https://picsum.photos/id/29/1200/400" alt="Banner principal">
+            </div>
+            <div class="texto-introdutorio">
+                <h2>Bem-vindo ao Meltify</h2>
+                <p>Descubra os melhores artistas, álbuns e playlists do mundo todo. Aqui você encontra os principais lançamentos e os tops mais ouvidos do momento. Explore nossa plataforma e mergulhe no universo da música!</p>
+            </div>
+        </section>
+
+        <!-- SEÇÃO SECUNDÁRIA: Cards com informações -->
+        <section class="cards-informativos">
+            <h2>Descubra o Meltify</h2>
+            <div class="cards-container">
+                <article class="card-info">
+                    <img src="https://picsum.photos/id/1/300/200" alt="Música em alta">
+                    <h3>Músicas em Alta</h3>
+                    <p>Confira os hits mais tocados do momento e fique por dentro das tendências musicais.</p>
+                </article>
+                
+                <article class="card-info">
+                    <img src="https://picsum.photos/id/2/300/200" alt="Artistas exclusivos">
+                    <h3>Artistas Exclusivos</h3>
+                    <p>Conheça artistas exclusivos e conteúdos especiais que você só encontra aqui.</p>
+                </article>
+                
+                <article class="card-info">
+                    <img src="https://picsum.photos/id/3/300/200" alt="Playlists personalizadas">
+                    <h3>Playlists Personalizadas</h3>
+                    <p>Crie suas playlists e compartilhe com amigos. Música do seu jeito!</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Top 5 Artistas -->
         <section class="top-artistas">
             <h2>Top 5 Artistas - Mundo</h2>
             <div class="artistas-container">
                 <article class="card-artista">
                     <img src="https://picsum.photos/id/1/200/200" alt="Artista 1">
-                    <h3>1. Bad Banny</h3>
+                    <h3>1. Bad Bunny</h3>
                     <p>Reggaeton/Latin</p>
                 </article>
                 
@@ -57,6 +96,7 @@
             </div>
         </section>
 
+        <!-- Top 4 Álbuns -->
         <section class="top-albuns">
             <h2>Top 4 Álbuns - Mundo</h2>
             <div class="albuns-container">
@@ -87,8 +127,8 @@
                     </div>
                 </article>
 
-                 <article class="card-album">
-                    <img src="https://picsum.photos/id/12/200/200" alt="Álbum 3">
+                <article class="card-album">
+                    <img src="https://picsum.photos/id/15/200/200" alt="Álbum 4">
                     <div class="album-info">
                         <h3>SOUR</h3>
                         <p>Olivia Rodrigo</p>
@@ -98,6 +138,7 @@
             </div>    
         </section>
 
+        <!-- Formulário Newsletter -->
         <section class="formulario-section">
             <h2>Inscreva-se na Newsletter</h2>
             <form class="form-inscricao">
@@ -114,13 +155,31 @@
         </section>
     </main>
 
+    <!-- Rodapé com links institucionais -->
     <footer class="rodape">
+        <div class="redes-sociais">
+            <h4>Redes Sociais</h4>
+            <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">YouTube</a></li>
+            </ul>
+        </div>
+        <div class="links-institucionais">
+            <h4>Institucional</h4>
+            <ul>
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Carreiras</a></li>
+                <li><a href="#">Imprensa</a></li>
+                <li><a href="#">Termos de uso</a></li>
+            </ul>
+        </div>
         <div class="links-uteis">
             <h4>Links úteis</h4>
             <ul>
                 <li><a href="#">Suporte</a></li>
                 <li><a href="#">Aplicativo</a></li>
-                <li><a href="#">Sobre nós</a></li>
                 <li><a href="#">Contato</a></li>
             </ul>
         </div>
